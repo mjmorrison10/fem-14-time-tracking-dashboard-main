@@ -1,0 +1,427 @@
+:root {
+  --primary-color-blue-hsl: hsl(246, 80%, 60%);
+  --primary-color-blue-hue: 246;
+  --primary-color-blue-saturation: 80%;
+  --primary-color-blue-lightness: 60%;
+  --primary-color-blue: var(--primary-color-blue-hue),
+    var(--primary-color-blue-saturation), var(--primary-color-blue-lightness);
+
+  --primary-color-light-red-work-hsl: hsl(15, 100%, 70%); /* work */
+  --primary-color-light-red-work-hue: 15;
+  --primary-color-light-red-work-saturation: 100%;
+  --primary-color-light-red-work-lightness: 70%;
+  --primary-color-light-red-work: var(--primary-color-light-red-work-hue),
+    var(--primary-color-light-red-work-saturation),
+    var(--primary-color-light-red-work-lightness);
+
+  --primary-color-soft-blue-play-hsl: hsl(195, 74%, 62%); /* play */
+  --primary-color-soft-blue-play-hue: 195;
+  --primary-color-soft-blue-play-saturation: 74%;
+  --primary-color-soft-blue-play-lightness: 62%;
+  --primary-color-soft-blue-play: var(--primary-color-soft-blue-play-hue),
+    var(--primary-color-soft-blue-play-saturation),
+    var(--primary-color-soft-blue-play-lightness);
+
+  --primary-color-light-red-study-hsl: hsl(348, 100%, 68%); /* study */
+  --primary-color-light-red-study-hue: 348;
+  --primary-color-light-red-study-saturation: 100%;
+  --primary-color-light-red-study-lightness: 68%;
+  --primary-color-light-red-study: var(--primary-color-light-red-study-hue),
+    var(--primary-color-light-red-study-saturation),
+    var(--primary-color-light-red-study-lightness);
+
+  --primary-color-lime-green-exercise-hsl: hsl(145, 58%, 55%); /* exercise */
+  --primary-color-lime-green-exercise-hue: 145;
+  --primary-color-lime-green-exercise-saturation: 58%;
+  --primary-color-lime-green-exercise-lightness: 55%;
+  --primary-color-lime-green-exercise: var(
+      --primary-color-lime-green-exercise-hue
+    ),
+    var(--primary-color-lime-green-exercise-saturation),
+    var(--primary-color-lime-green-exercise-lightness);
+
+  --primary-color-violet-social-hsl: hsl(264, 64%, 52%); /* social */
+  --primary-color-violet-social-hue: 264;
+  --primary-color-violet-social-saturation: 64%;
+  --primary-color-violet-social-lightness: 52%;
+  --primary-color-violet-social: var(--primary-color-violet-social-hue),
+    var(--primary-color-violet-social-saturation),
+    var(--primary-color-violet-social-lightness);
+
+  --primary-color-soft-orange-self-care-hsl: hsl(43, 84%, 65%); /* self care */
+  --primary-color-soft-orange-self-care-hue: 43;
+  --primary-color-soft-orange-self-care-saturation: 84%;
+  --primary-color-soft-orange-self-care-lightness: 65%;
+  --primary-color-soft-orange-self-care: var(
+      --primary-color-soft-orange-self-care-hue
+    ),
+    var(--primary-color-soft-orange-self-care-saturation),
+    var(--primary-color-soft-orange-self-care-lightness);
+
+  --neutral-color-very-dark-blue-hsl: hsl(226, 43%, 10%);
+  --neutral-color-very-dark-blue-hue: 226;
+  --neutral-color-very-dark-blue-saturation: 43%;
+  --neutral-color-very-dark-blue-lightness: 10%;
+  --neutral-color-very-dark-blue: var(--neutral-color-very-dark-blue-hue),
+    var(--neutral-color-very-dark-blue-saturation),
+    var(--neutral-color-very-dark-blue-lightness);
+
+  --neutral-color-dark-blue-hsl: hsl(235, 46%, 20%);
+  --neutral-color-dark-blue-hue: 235;
+  --neutral-color-dark-blue-saturation: 46%;
+  --neutral-color-dark-blue-lightness: 20%;
+  --neutral-color-dark-blue: var(--neutral-color-dark-blue-hue),
+    var(--neutral-color-dark-blue-saturation),
+    var(--neutral-color-dark-blue-lightness);
+
+  --neutral-color-desaturated-blue-hsl: hsl(235, 45%, 61%);
+  --neutral-color-desaturated-blue-hue: 235;
+  --neutral-color-desaturated-blue-saturation: 45%;
+  --neutral-color-desaturated-blue-lightness: 61%;
+  --neutral-color-desaturated-blue: var(--neutral-color-desaturated-blue-hue),
+    var(--neutral-color-desaturated-blue-saturation),
+    var(--neutral-color-desaturated-blue-lightness);
+
+  --neutral-color-pale-blue-hsl: hsl(236, 100%, 87%);
+  --neutral-color-pale-blue-hue: 236;
+  --neutral-color-pale-blue-saturation: 100%;
+  --neutral-color-pale-blue-lightness: 87%;
+  --neutral-color-pale-blue: var(--neutral-color-pale-blue-hue),
+    var(--neutral-color-pale-blue-saturation),
+    var(--neutral-color-pale-blue-lightness);
+
+  --fontSize: 18px;
+
+  font-family: "Rubik";
+
+  --font-size-6x-small: calc(var(--fontSize) * 0.5);
+  --font-size-5x-small: calc(var(--fontSize) * 0.55);
+  --font-size-4x-small: calc(var(--fontSize) * 0.6);
+  --font-size-3x-small: calc(var(--fontSize) * 0.65);
+  --font-size-2x-small: calc(var(--fontSize) * 0.7);
+  --font-size-x-small: calc(var(--fontSize) * 0.75);
+  --font-size-small: calc(var(--fontSize) * 0.8);
+  --font-size-medium: calc(var(--fontSize) * 1);
+  --font-size-large: calc(var(--fontSize) * 1.2);
+  --font-size-x-large: calc(var(--fontSize) * 1.4);
+  --font-size-2x-large: calc(var(--fontSize) * 1.6);
+  --font-size-3x-large: calc(var(--fontSize) * 1.8);
+  --font-size-4x-large: calc(var(--fontSize) * 2);
+  --font-size-5x-large: calc(var(--fontSize) * 2.2);
+  --font-size-6x-large: calc(var(--fontSize) * 2.4);
+  --font-size-7x-large: calc(var(--fontSize) * 2.6);
+  --font-size-8x-large: calc(var(--fontSize) * 2.8);
+  --font-size-9x-large: calc(var(--fontSize) * 3);
+  --font-size-10x-large: calc(var(--fontSize) * 3.2);
+  --font-size-11x-large: calc(var(--fontSize) * 3.4);
+  --font-size-12x-large: calc(var(--fontSize) * 3.6);
+  --font-size-13x-large: calc(var(--fontSize) * 3.8);
+  --font-size-14x-large: calc(var(--fontSize) * 4);
+
+  --fontWeight-light: 300;
+  --fontWeight-regular: 400;
+  --fontWeight-bold: 500;
+
+  --gridGap: 1.5em;
+
+  --borderRadius: 14px;
+
+  --padding: 2em;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow: scroll; /* Enable scrollbars */
+  overflow-x: hidden; /* Disable horizontal scrollbars */
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+
+/* //////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////// */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: var(--neutral-color-very-dark-blue-hsl);
+}
+
+main {
+  display: grid;
+  grid-auto-flow: row dense;
+  grid-auto-columns: 100%;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 3fr;
+  gap: 0px var(--gridGap);
+  color: var(--neutral-color-pale-blue-hsl);
+}
+
+/* //////////////////////////////////////////////////////////////// */
+
+.name-card {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: var(--neutral-color-dark-blue-hsl);
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--borderRadius);
+}
+
+.name-upper {
+  background-color: var(--primary-color-blue-hsl);
+  height: 70%;
+  border-radius: var(--borderRadius);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding);
+  padding-bottom: calc(var(--padding) * 2.75);
+}
+
+.name-image {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.name-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.name-info h1 {
+  font-size: var(--font-size-x-small);
+  font-weight: var(--fontWeight-light);
+  margin-top: 3rem;
+}
+
+.name-info h2 {
+  font-size: var(--font-size-5x-large);
+  font-weight: var(--fontWeight-light);
+}
+
+.name-bottom {
+  padding: var(--padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30%;
+  transition: 250ms ease;
+}
+
+.name-bottom .name-daily:hover,
+.name-bottom .name-weekly:hover,
+.name-bottom .name-monthly:hover {
+  font-weight: var(--fontWeight-bold);
+  cursor: pointer;
+  color: white;
+}
+
+/* //////////////////////////////////////////////////////////////// */
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: var(--gridGap) var(--gridGap);
+  grid-template-areas:
+    "work play study"
+    "exercise social self-care";
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.work,
+.play,
+.study,
+.exercise,
+.social,
+.self-care {
+  grid-area: work;
+  background-color: rgba(9, 9, 9, 0.5);
+  border-radius: var(--borderRadius);
+  min-height: 225px;
+}
+
+.work .banner,
+.play .banner,
+.study .banner,
+.exercise .banner,
+.social .banner,
+.self-care .banner {
+  height: 20%;
+  background-position: 90% 25%;
+  background-repeat: no-repeat;
+}
+
+.work .card,
+.play .card,
+.study .card,
+.exercise .card,
+.social .card,
+.self-care .card {
+  background-color: var(--neutral-color-dark-blue-hsl);
+  width: 100%;
+  height: 80%;
+  padding: var(--padding);
+  border-radius: var(--borderRadius);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 250ms ease;
+}
+
+.work .card:hover,
+.play .card:hover,
+.study .card:hover,
+.exercise .card:hover,
+.social .card:hover,
+.self-care .card:hover {
+  background-color: var(--neutral-color-desaturated-blue-hsl);
+  /* cursor: pointer; */
+}
+
+.work h1,
+.play h1,
+.study h1,
+.exercise h1,
+.social h1,
+.self-care h1 {
+  font-size: var(--font-size-medium);
+  font-weight: var(--fontWeight-bold);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.work i,
+.play i,
+.study i,
+.exercise i,
+.social i,
+.self-care i {
+  cursor: pointer;
+}
+
+.work h2,
+.play h2,
+.study h2,
+.exercise h2,
+.social h2,
+.self-care h2 {
+  font-size: var(--font-size-8x-large);
+  font-weight: var(--fontWeight-light);
+  margin: 0.5rem 0;
+}
+
+.work p,
+.play p,
+.study p,
+.exercise p,
+.social p,
+.self-care p {
+  font-size: var(--font-size-small);
+  font-weight: var(--fontWeight-regular);
+}
+
+.daily {
+  display: none;
+}
+
+.weekly {
+  display: none;
+}
+
+.monthly {
+  display: none;
+}
+
+.show {
+    display: block;
+}
+
+.work {
+  grid-area: work;
+  background-color: var(--primary-color-light-red-work-hsl);
+}
+
+.work-banner {
+  background-image: url(./images/icon-work.svg);
+}
+
+.play {
+  background-color: var(--primary-color-soft-blue-play-hsl);
+  grid-area: play;
+}
+
+.play-banner {
+  background-image: url(./images/icon-play.svg);
+}
+
+.study {
+  grid-area: study;
+  background-color: var(--primary-color-light-red-study-hsl);
+}
+
+.study-banner {
+  background-image: url(./images/icon-study.svg);
+}
+
+.exercise {
+  grid-area: exercise;
+  background-color: var(--primary-color-lime-green-exercise-hsl);
+}
+
+.exercise-banner {
+  background-image: url(./images/icon-exercise.svg);
+}
+
+.social {
+  background-color: var(--primary-color-violet-social-hsl);
+  grid-area: social;
+}
+
+.social-banner {
+  background-image: url(./images/icon-social.svg);
+}
+
+.self-care {
+  background-color: var(--primary-color-soft-orange-self-care-hsl);
+  grid-area: self-care;
+}
+
+.self-care-banner {
+  background-image: url(./images/icon-self-care.svg);
+}
+
+footer {
+  /* Position the footer at the bottom of the page */
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.attribution {
+  color: white;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} /* hsl(228, 45%, 44%) */
